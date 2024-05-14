@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --fonte1 : Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
+}
 
 *{
     padding: 0px;
@@ -17,9 +22,9 @@ header {
 }
 
 header h1 {
-    font-family: "Passion One", sans-serif;
+    font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 10vw;
     font-style: bold;
     padding-top: 50px;
 }
@@ -29,7 +34,7 @@ header p {
 }
 
 header a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte1);
     text-decoration: none;
     color: white;
     font-size: 1em;
@@ -41,12 +46,13 @@ header a:hover {
 }
 
 main {
-    font-family: "Sriracha", cursive;
+    font-family: var(--fonte3);
     font-style: normal;
 }
 
 main article {
-    max-width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 .container {
@@ -83,7 +89,7 @@ main article {
     background-color: white;
     padding-left: 30px;
     height: 96%;
-    font-size: 1em;
+    font-size: 3.5vw;
     line-height: 2em;
 }
 
@@ -98,6 +104,7 @@ main article {
 }
 
 footer {
+    font-family: var(--fonte1);
     background-color: black;
     color: white;
     text-align: center;
