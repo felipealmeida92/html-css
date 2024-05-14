@@ -14,14 +14,18 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 180px;
 }
 
 header h1 {
     font-family: "Passion One", sans-serif;
+    font-variant: small-caps;
     font-size: 3em;
     font-style: bold;
     padding-top: 50px;
+}
+
+header p {
+    padding-bottom: 50px;
 }
 
 header a {
@@ -29,7 +33,7 @@ header a {
     text-decoration: none;
     color: white;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header a:hover {
@@ -42,47 +46,45 @@ main {
 }
 
 main article {
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .container {
     background-color: rgb(0, 0, 0);
     padding: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .container#q1 {
     background-color: white;
-    height: 500px;
 }
 
 .container#q2 {
     background-image: url('../imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
 }
 
 .container#q3 {
     background-color: white;
-    height: 500px;
 }
 
 .container#q4 {
     background-image: url('../imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
 }
 
 .container#q5 {
     background-color: white;
-    height: 500px;
 }
 .conteudo {
     background-color: white;
-    padding: 10px;
+    padding-left: 30px;
     height: 96%;
-    font-size: 1.5em;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 .conteudo#c2 {
@@ -99,11 +101,14 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 1.2em;
     padding: 10px;
 }
 
 footer a {
     text-decoration: none;
     color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
