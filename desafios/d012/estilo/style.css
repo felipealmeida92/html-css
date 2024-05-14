@@ -69,7 +69,9 @@ main article {
 .container#q2 {
     background-image: url('../imagens/background001.jpg');
     background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.836);
 }
 
 .container#q3 {
@@ -79,7 +81,9 @@ main article {
 .container#q4 {
     background-image: url('../imagens/background002.jpg');
     background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.833);
 }
 
 .container#q5 {
@@ -93,14 +97,20 @@ main article {
     line-height: 2em;
 }
 
-.conteudo#c2 {
-    background-color: rgba(0, 0, 0, 0.291);
-    color: white;
+.conteudo p {
+    padding-bottom: 2em;
 }
 
-.conteudo#c4 {
-    background-color: rgba(0, 0, 0, 0.295);
+.conteudo#c2 {
+    background-color: rgba(0, 0, 0, 0.514);
     color: white;
+    text-shadow: 1px 1px 0px black
+}   
+
+.conteudo#c4 {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
